@@ -81,9 +81,9 @@ WSGI_APPLICATION = 'btre.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'btredb',
+        'NAME': '****',
         'USER': 'postgres',
-        'PASSWORD': 'omid',
+        'PASSWORD': '****',
         'HOST': 'localhost',
         'PORT': '5432',
     }
@@ -141,6 +141,6 @@ MESSAGE_TAGS = {
 # Email Config
 EMAIL_HOST = 'smtp.gmail.com'
 EMAIL_PORT = 587
-EMAIL_HOST_USER = 'insta.tools1990@gmail.com'
-EMAIL_HOST_PASSWORD = 'omid@omid'
+EMAIL_HOST_USER = '*****'
+EMAIL_HOST_PASSWORD = '****'
 EMAIL_USE_TLS = True
